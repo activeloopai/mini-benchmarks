@@ -29,6 +29,6 @@ python3 trivial/dataloader.py --enterprise --shuffle
 python3 trivial/dataloader.py --enterprise --shuffle --model 
 
 # cpp stream dataloader
-# python3 trivial/dataloader.py --enterprise --stream
-# python3 trivial/dataloader.py --enterprise --stream --shuffle 
-# python3 trivial/dataloader.py --enterprise --stream --shuffle --model 
+python3 trivial/dataloader.py --enterprise --stream
+python3 trivial/dataloader.py --enterprise --stream --shuffle 
+python3 trivial/dataloader.py --enterprise --stream --shuffle --model 
