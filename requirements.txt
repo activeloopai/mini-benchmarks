@@ -1,0 +1,5 @@
+deeplake==3.0.15
+torch
+pycocotools
+albumentations
+torchvision
