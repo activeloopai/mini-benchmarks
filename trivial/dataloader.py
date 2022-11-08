@@ -22,7 +22,7 @@ if __name__ == '__main__':
         ds = deeplake.load('./dataset/coco-val')
 
     if args.model:
-        ds = ds[:256]
+        ds = ds[:32]
 
     if args.enterprise:
         train_loader = dataloader(ds)\

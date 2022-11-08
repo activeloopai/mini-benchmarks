@@ -9,9 +9,9 @@ python3 trivial/query.py --scenario=1
 python3 trivial/query.py --scenario=2
 
 # trivial query benchmarks 
-# python3 trivial/query.py --stream --scenario=0
-# python3 trivial/query.py --stream --scenario=1
-# python3 trivial/query.py --stream --scenario=2
+python3 trivial/query.py --stream --scenario=0
+python3 trivial/query.py --stream --scenario=1
+python3 trivial/query.py --stream --scenario=2
 
 # python dataloader
 python3 trivial/dataloader.py
@@ -28,7 +28,7 @@ python3 trivial/dataloader.py --enterprise
 python3 trivial/dataloader.py --enterprise --shuffle 
 python3 trivial/dataloader.py --enterprise --shuffle --model 
 
-# cpp stream dataloader (not working)
+# cpp stream dataloader
 # python3 trivial/dataloader.py --enterprise --stream
 # python3 trivial/dataloader.py --enterprise --stream --shuffle 
-# python3 trivial/dataloader.py --enterprise stream --shuffle --model 
+# python3 trivial/dataloader.py --enterprise --stream --shuffle --model 
